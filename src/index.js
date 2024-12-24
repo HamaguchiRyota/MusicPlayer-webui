@@ -12,13 +12,14 @@ const image = document.getElementById('cover'),
     playlist1Btn = document.getElementById('playlist1'),
     playlist2Btn = document.getElementById('playlist2'),
     youtubeBtn = document.getElementById('youtube'),
-    spotifyBtn = document.getElementById('spotify');
+    spotifyBtn = document.getElementById('spotify'),
     xbtn = document.getElementById('x');
 
 const music = new Audio();
 
 const playlists = {
     p1: [
+        /*
         {
             path: 'assets/p1/1.mp3',
             displayName: 'Bbbang',
@@ -37,6 +38,7 @@ const playlists = {
             spotify: 'https://open.spotify.com/intl-ja/album/2pUxSIXaFG9Pm3jXeYa93e',
             x: 'https://x.com/noa__aburasoba'
         },
+        */
         {
             path: 'assets/p1/3.mp3',
             displayName: 'わたしの一番かわいいところ',
@@ -75,6 +77,24 @@ const playlists = {
         }
     ],
     p2: [
+        {
+            path: 'assets/p2/1.mp3',
+            displayName: 'もういいよ',
+            cover: 'assets/p2/1.jpg',
+            artist: 'こっちのけんと',
+            youtube: 'https://youtu.be/svbfMJJk_90',
+            spotify: 'https://open.spotify.com/intl-ja/album/2O6Ndu8lo4d1Ov7wz7bNGO',
+            x: 'https://x.com/SuppokoPeppoko'
+        },
+        {
+            path: 'assets/p2/2.mp3',
+            displayName: 'トラエノヒメ (feat. むト & Sohbana)',
+            cover: 'assets/p2/2.jpg',
+            artist: 'MAISONdes',
+            youtube: 'https://youtu.be/XZk_URrYRno',
+            spotify: 'https://open.spotify.com/intl-ja/track/6gWRznlX7vaUW0r8KF9iMZ',
+            x: 'https://x.com/MAISONdes_6half'
+        }
     ]
 };
 
